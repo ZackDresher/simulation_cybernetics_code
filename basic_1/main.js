@@ -22,8 +22,8 @@ function setup() {
 
 // runs every frame
 function draw() {
-  background(0,0,255);
-  fill(255, 255, 255);
+  background(0,100,100);
+  fill(255, 0, 255);
 
   // https://p5js.org/reference/#/p5/ellipse
   ellipse(50, 50, 80, 80);
@@ -34,7 +34,7 @@ function draw() {
   // https://p5js.org/reference/#/p5/rect
   rect(30, 20, 55, 55);
 
-  fill(255, 100, 0);
+  fill(255, 0, 60);
   rotate(0.1);
   rect(200, 180, 55, 55);
   resetMatrix();
@@ -43,7 +43,7 @@ function draw() {
   [centerX, centerY] = [width/2, height/2];
 
   // rendering text
-  fill(255, 204, 0);
+  fill(50, 204, 100);
   textSize(32);
   text('word', centerX, centerY);
 
